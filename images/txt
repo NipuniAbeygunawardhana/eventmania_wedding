@@ -1,0 +1,80 @@
+<dic id="hero" class="col-md-12 min-vh-100 text-center align-items-center d-flex">
+    <div class="container">
+        <div class="col-md-12">
+            <h2>Empowering Sucess</h2>
+            <h1>Your Partner in Event Management</h1>
+            <a href="#" class="btn btn-outline-primary">Plan Now</a>
+        </div>
+
+    </div>
+
+</dic>
+<div class="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/home1.png" alt="" class="w-100">
+
+        </div>
+        <div class="carousel-item active">
+            <img src="images/home2.jpg" alt="">
+
+        </div>
+        <div class="carousel-item active">
+            <img src="images/home3.jpg" alt="">
+
+        </div>
+    </div>
+
+  </div>
+
+
+  44 even-e be I (eve everg events IS q
+s-tcpry to bc to ld a rnorneo-e vucn-ung be
+aptureds ood a meroc,rg be Che nsöect ,
+Our dear coted f earn experience evene planners
+and vgcre tiretessu to bc' 09
+your vi3ion -to tree, en eueg detail r g me-El culau33
+planoea aoct Clawleas/ executed. Whether
+gou re hosts 09
+0 0 roti mate gathersr)9, cv graoct corporate ever-Nzo a drean
+wedding or vrbrao& -feø-t•jval our oervtce
+to meet gour need3 ood e«eed YOUP expecta —
+— ti0D3. We take e our
+coro to encetJ and our abitt•ty tz, transycro
+eve Ots to-to extraordlr-ry experleoces .
+end we ace u ou
+Toro b
+
+
+<div class="row">
+    <div class="col-md-12">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid text01">
+          <div class="navbar-brand fw-bolder" href="#"><img src="Logo/logoname.png" height="30px" width="50%"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item px-2">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link active" href="#">Events</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link active" href="#">contact</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link active" href="#">About </a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link active btn btn-primary btnrad" href="#">Registration</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </div>
+    </div>

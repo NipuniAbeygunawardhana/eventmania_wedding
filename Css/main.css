@@ -1,0 +1,165 @@
+
+
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/arrow-right.css');
+
+
+/***** Navbar *****/ 
+.btn{
+    border-radius: 16px !important;
+    font-size: 16px !important; 
+
+}
+#nav1
+{  
+    background-color:#060606; 
+    opacity: 0.5;
+    filter:(opacity=50);       
+}
+
+.navbar{
+    position:fixed !important;
+    width:100% !important;
+    z-index: 1000000 !important;
+    top:0 !important;
+}
+.underline1{
+    text-decoration-line: undextrline;
+    text-decoration-style: solid;
+    text-decoration-color: blue;
+    size: 25%;
+
+}
+
+
+/***** End Navbar *****/
+/***** Banner *****/
+.c-item{
+    height: 700px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.btnRad{
+    border-radius: 50%;
+}
+
+/***** End Banner *****/
+
+
+
+
+
+
+/***** Button *****/ 
+a:hover{
+    background-color:#ffd700;
+}
+.myButton1{
+    
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color:#4169E1;
+  border-radius: 25px;
+    width: 50%
+  
+}
+
+.b1:hover{
+    background-color: #0000ff;
+    color: white;
+}
+
+
+
+
+
+/***** img *****/
+.img-thumbnail{
+    height: 300px !important;
+    width: 100% !important;
+}
+
+
+/***** End img *****/
+
+
+
+/***** End Button *****/
+
+
+
+/***** icon *****/ 
+.gg-arrow-right {
+    box-sizing: border-box;
+    position: relative;
+    display: inline;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px
+    
+
+
+   }
+   
+
+
+
+
+/***** End icon *****/
+
+
+/***** body *****/ 
+
+.mycontainer1{
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: cover;
+    background-attachment: fixed;
+    background-image: url(https://png.pngtree.com/background/20230613/original/pngtree-group-of-business-people-standing-side-by-side-on-grey-picture-image_3389594.jpg);
+
+}
+
+.primarycolor{
+    
+   background-color: #ffd700;
+}
+.text-justify{
+    text-align: justify;
+}
+.background1{
+    background-color: red;
+}
+.background2{
+    background-color: #a9a9a9;
+    padding-bottom: 75px;
+}
+.background3{
+    background-color: #0000ff !important;
+}
+.background4{
+    background-color: #ff8c00;
+}
+
+
+
+
+/***** End body *****/
+
+
+
+/***** Body *****/  
+
+
+
+/***** End Body*****/
+
+
