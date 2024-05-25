@@ -1,0 +1,3 @@
+https://getbootstrap.com/docs/5.0/components/carousel/#slides-only     image slide
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+https://getbootstrap.com/docs/5.0/components/card/#card-groups      cards group

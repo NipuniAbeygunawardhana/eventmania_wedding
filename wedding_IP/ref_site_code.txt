@@ -1,0 +1,1216 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Wedding Directory | Wedding Vendor | Find The Best Wedding suppliers in Sri Lanka | Weddingdirectory.lk </title>
+    
+    <!-- Area Start -->
+        
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Are you local weddding vendor provider & looking for wedding vendor website template. Wedding Vendor Responsive Website Template suitable for wedding vendor supplier, wedding agency, wedding company, wedding events etc.. ">
+    <meta name="keywords" content="Wedding Vendor, wedding template, wedding website template, events, wedding party, wedding cake, wedding dress, wedding couple, couple, Wedding Venues Website Template">
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="https://weddingdirectory.lk/images/favicon.ico" type="image/x-icon">    <!-- Area End -->
+
+    <!-- Area Start -->
+        <!-- Bootstrap -->
+    <link href="https://weddingdirectory.lk/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template style.css -->
+    <link rel="stylesheet" type="text/css" href="https://weddingdirectory.lk/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://weddingdirectory.lk/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="https://weddingdirectory.lk/css/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="https://weddingdirectory.lk/css/owl.transitions.css">
+
+    <!-- <link rel="stylesheet" type="text/css" href="http://www.weddingdirectory.lk/asset/css/jquery-ui.css"> -->
+    <!-- <script src="http://www.weddingdirectory.lk/asset/js/jquery.min.js"></script> -->
+
+    <!-- Font used in template -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,500,500italic,700,700italic,300italic,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!--font awesome icon -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <!-- Template style.css -->
+    <link rel="stylesheet" type="text/css" href="https://weddingdirectory.lk/css/fontello.css">
+
+    <!-- Template style.css -->
+    <link rel="stylesheet" type="text/css" href="https://weddingdirectory.lk/css/sweetalert2/sweetalert2.min.css">
+
+    
+    <!-- JDataTables css -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+
+    <!-- Area End -->
+
+    <style>
+        /*the container must be positioned relative:*/
+        .autocomplete {
+          position: relative;
+        }
+
+        .autocomplete-items {
+          position: absolute;
+          border: 1px solid #d4d4d4;
+          border-bottom: none;
+          border-top: none;
+          z-index: 99;
+          /*position the autocomplete items to be the same width as the container:*/
+          top: 100%;
+          left: 0;
+          right: 0;
+        }
+
+        .autocomplete-items div {
+          padding: 10px;
+          cursor: pointer;
+          background-color: #fff; 
+          border-bottom: 1px solid #d4d4d4; 
+        }
+
+        /*when hovering an item:*/
+        .autocomplete-items div:hover {
+          background-color: #e9e9e9; 
+        }
+
+        /*when navigating through the items using the arrow keys:*/
+        .autocomplete-active {
+          background-color: DodgerBlue !important; 
+          color: #ffffff; 
+        }
+
+        .well-box {
+            height: 75px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Area Start -->
+        <div class="collapse" id="searcharea">
+        <!-- top search -->
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="button">Search</button>
+          </span>
+        </div>
+    </div>
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 top-message">
+                    <p>SRI LANKA’S NO. 1 WEDDING WEBSITE</p>
+                </div>
+                <div class="col-md-6 top-links" style="display:none">
+                    <ul class="listnone">
+                        <!-- <li><a href="faq"> Help </a></li> -->
+                        <!-- <li><a href="pricing-plan">Pricing</a></li> -->
+                        <!-- <li><a href="signup-couple" class=" ">I m couple</a></li> -->
+
+                        <li><a href="login">Log in</a></li>
+
+                        <li><a href="contact-us">Are you a vendor?</a></li>
+                        <li>
+                            <a role="button" data-toggle="collapse" href="#searcharea" aria-expanded="false" aria-controls="searcharea"> <i class="fa fa-search"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12 logo">
+                    <div class="navbar-brand">
+                        <a href="https://weddingdirectory.lk/"><img src="https://weddingdirectory.lk/images/logo/logo.png" alt="Wedding Vendors" class="img-responsive"></a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-12">
+                    <div class="navigation" id="navigation">
+                        <ul>
+                            <li class="active"><a href="https://weddingdirectory.lk/">Home</a></li>
+                            <!-- <li class=""><a href="photos">Photos</a></li> -->
+                            <li class=""><a href="https://weddingdirectory.lk/blog">Blog</a></li>
+                            <li class=""><a href="https://weddingdirectory.lk/advertise-with-us">Advertise with us</a></li>
+                            <li class="contact-us"><a href="https://weddingdirectory.lk/contact-us">Contact us</a></li>
+                            <!-- <li><a href="#">Listing</a>
+                                <ul>
+                                    <li><a href="vendor-listing-row-map" title="Home" class="animsition-link">List / Half Map</a></li>
+                                    <li><a href="vendor-listing-sidebar" title="Home" class="animsition-link">List / Sidebar Left</a></li>
+                                    <li><a href="vendor-listing-no-sidebar" title="Home" class="animsition-link">List / No Sidebar</a></li>
+                                    <li><a href="vendor-listing-top-map" title="Home" class="animsition-link">Top Map / List</a></li>
+                                    <li><a href="vendor-list-4-colmun" title="Home" class="animsition-link">4 Column List</a></li>
+                                    <li><a href="vendor-list-3-colmun" title="Home" class="animsition-link">3 Column List</a></li>
+                                    <li><a href="vendor-list-horizontal" title="Home" class="animsition-link">Horizontal List </a></li>
+                                    <li><a href="vendor-list-new" title="Home" class="animsition-link">List Variations </a></li>
+                                    <li><a href="vendor-listing-bubba">Bubba Style Listing</a></li>
+                                    <li><a href="vendor-listing-ocean">Ocean Style Listing</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="vendor-details">Vendor</a>
+                                <ul>
+                                    <li><a href="vendor-details">Vendor Simple</a></li>
+                                    <li><a href="vendor-details-tabbed">Vendor Tabbed</a></li>
+                                    <li><a href="vendor-profile">Vendor Profile</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="venue-listing" title="Home" class="animsition-link">Suppliers</a>
+                                <ul>
+                                    <li><a href="venue-listing">Venue List</a></li>
+                                    <li><a href="photography-listing">Photographer List</a></li>
+                                    <li><a href="dresses-listing">Dresses List</a></li>
+                                    <li><a href="florist-listing">Florist List</a></li>
+                                    <li><a href="videography-listing">Videography List</a></li>
+                                    <li><a href="cake-listing">Cake List</a></li>
+                                    <li><a href="music-listing">Music List</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Planning Tools</a>
+                                <ul>
+                                    <li><a href="planning-to-do">To Do List</a></li>
+                                    <li><a href="planning-budget">Budget Planner</a></li>
+                                    <li><a href="couple-landing-page">Couple Signup (LP)</a></li>
+                                    <li><a href="couple-dashboard">Couple Admin</a></li>
+                                    <li><a href="dashboard-vendor">Vendor Admin</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Features</a>
+                                <ul>
+                                    <li><a href="#">Blog</a>
+                                        <ul>
+                                            <li><a href="blog">Blog Listing</a></li>
+                                            <li><a href="blog-single">Blog Single</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about-us">About us</a></li>
+                                    <li><a href="contact-us">Contact us</a></li>
+                                    <li><a href="pricing-plan">Pricing Table</a></li>
+                                    <li><a href="faq">FAQ's</a></li>
+                                    <li><a href="404-error">404 Error</a></li>
+                                    <li><a href="#">Shortcodes</a>
+                                        <ul>
+                                            <li><a href="shortcode-columns">Column</a></li>
+                                            <li><a href="shortcode-accordion">Accordion</a></li>
+                                            <li><a href="shortcode-tabs">Tabs</a></li>
+                                            <li><a href="shortcode-pagination">Paginations</a></li>
+                                            <li><a href="shortcode-typography">Typography</a></li>
+                                            <li><a href="shortcode-accordion">Accordion</a></li>
+                                            <li><a href="shordcods-alerts">Alert</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="wedding-guideline">Template Guideline</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Real Weddings</a>
+                                <ul>
+                                    <li><a href="real-wedding-listing">Listing</a></li>
+                                    <li><a href="real-wedding-single">Real Wedding Single</a></li>
+                                </ul>
+                            </li> -->
+                        </ul>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- <div class="main-header-area header-sticky">
+         <div class="container">
+            <div class="classy-nav-container breakpoint-off">
+               <nav class="classy-navbar justify-content-between" id="listingNav">
+                  <a class="nav-brand" href="index"><img src="assets\img\logo\logo.png" alt="logo" class="img img-fluid" style="max-height: 65px;"></a>
+                  <div class="classy-navbar-toggler">
+                     <span class="navbarToggler"><span></span><span></span><span></span></span>
+                  </div>
+                  <div class="classy-menu">
+                     <div class="classycloseIcon">
+                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                     </div>
+                     <div class="classynav">
+                        <ul>
+                           <li class="my-li d-none">
+                              <a href="index">Home</a>
+                           </li>
+                           <li class="my-li " id="nav_category">
+                              <a href="#">Category</a>
+                           </li>
+                           <li class="my-li " id="nav_location">
+                              <a href="#">Location</a>
+                           </li>
+
+                                                   <li class="right-side">
+                              <ul>
+                                 
+                                 <li class="my-li mb-2"><a href="login"><i class="fas fa-sign-out-alt"></i> Sign In</a></li>
+                                 <li><a href="login" class="btn btn-light"><i class="fas fa-plus"></i> Add Listing</a></li>
+
+                                                               </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </nav>
+            </div>
+         </div>
+      </div> -->    <!-- Area End -->
+
+    <div class="slider-bg">
+        <div id="slider" class="owl-carousel owl-theme slider">
+            <div class="item"><img src="images/slider/01.jpg" alt="Wedding couple just married"></div>
+            <div class="item"><img src="images/slider/02.jpg" alt="Wedding couple just married"></div>
+            <div class="item"><img src="images/slider/03.jpg" alt="Wedding couple just married"></div>
+            <div class="item"><img src="images/slider/04.jpg" alt="Wedding couple just married"></div>
+            <div class="item"><img src="images/slider/05.jpg" alt="Wedding couple just married"></div>
+        </div>
+        <!-- <div class="find-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-1 col-md-10 finder-block">
+                        <div class="finder-caption">
+                            <h1>Find your perfect Wedding Vendor</h1>
+                            <p>Over <strong>4000</strong> Wedding Vendors to choose from to make your special day perfect and elegant</p>
+                        </div>
+                        <div class="finderform">
+                            <form>
+                                <div class="row">
+                                    <div class="form-group col-md-4">
+                                        <select class="form-control">
+                                            <option>Select Vendor Category</option>
+                                            <option value="Venue">Venue</option>
+                                            <option value="Photographer">Photographer</option>
+                                            <option value="Cake">Cake</option>
+                                            <option value="Dj">Dj</option>
+                                            <option value="Florist">Florist</option>
+                                            <option value="Videography">Videography</option>
+                                            <option value="jewellery">Jewellery</option>
+                                            <option value="Gifts">Gifts</option>
+                                            <option value="Dresses">Dresses</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <select class="form-control">
+                                            <option>Select City</option>
+                                            <option value="Ahmedabad">Ahmedabad</option>
+                                            <option value="Gandhinagar">Gandhinagar</option>
+                                            <option value="Rajkot">Rajkot</option>
+                                            <option value="Surat">Surat</option>
+                                            <option value="Vadodara">Vadodara</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <button type="submit" class="btn btn-primary btn-lg btn-block">Find Vendors</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <div class="section-space40 bg-light" style="background-color: #e3e1de;">
+        <div class="container">
+            <div class="row">
+                <form action="" method="">
+                    <h2 class="text-center mb-5">Find your vendor with Location</h2>
+                    <div class="col-md-5 col-sm-4">
+                        <div class="autocomplete">
+                            <!-- <input id="keywordinput" class="form-control hm-loc-input" type="text" name="keyword" value="" placeholder="Enter keyword" autocomplete="off" required> -->
+                            <input id="keywordinput" class="form-control hm-loc-input find-keyword" type="text" name="keyword" value="" placeholder="Enter keyword" autocomplete="off" required>
+                            <div id="search_results" class="autocomplete-items" style="max-height: 500px; overflow: auto;"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <input class="form-control hm-loc-input find-location" type="text" name="location" value="" placeholder="Enter location (optional)" autocomplete="off">
+                    </div>
+                    <div class="form-group col-md-4 col-sm-4">
+                        <!-- <button type="submit" class="btn btn-primary btn-lg btn-block" id="btnSearch">Find Vendors</button> -->
+                        <button class="btn btn-primary btn-lg btn-block" id="btnSearch">Find Vendors</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-space80 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title mb60 text-center">
+                        <h1>Wedding Directory makes your dream wedding a reality</h1>
+                        <p>WeddingDirectory.lk offers you hundreds of wedding vendors of all categories enabling you to find the perfect match that will make your dream wedding a reality. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                     <div class="col-md-3">
+                    <div class="vendor-total-list mb30">
+                        <div class="vendor-total-thumb">
+                        <!--<a href="category?slug=cultural-requirements&id=1"><img src="images/main-category/Cultural-Requirements.jpg" class="img-responsive" alt="Cultural Requirements"></a>-->
+                        <a href="category/cultural-requirements"><img src="images/main-category/Cultural-Requirements.jpg" class="img-responsive" alt="Cultural Requirements"></a>
+                            <!--<a href="category/cultural-requirements"><img src="images/main-category/Cultural-Requirements.jpg" class="img-responsive" alt="Cultural Requirements"></a>-->
+                        </div>
+                        <div class="well-box vendor-total-info">
+                            <h2 class="vendor-total-title"><a href="category/cultural-requirements" class="title">Cultural Requirements</a></h2>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="vendor-total-list mb30">
+                        <div class="vendor-total-thumb">
+                        <!--<a href="category?slug=wedding-decoration&id=2"><img src="images/main-category/Wedding-Decoration.jpg" class="img-responsive" alt="Wedding Decoration"></a>-->
+                        <a href="category/wedding-decoration"><img src="images/main-category/Wedding-Decoration.jpg" class="img-responsive" alt="Wedding Decoration"></a>
+                            <!--<a href="category/wedding-decoration"><img src="images/main-category/Wedding-Decoration.jpg" class="img-responsive" alt="Wedding Decoration"></a>-->
+                        </div>
+                        <div class="well-box vendor-total-info">
+                            <h2 class="vendor-total-title"><a href="category/wedding-decoration" class="title">Wedding Decoration</a></h2>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="vendor-total-list mb30">
+                        <div class="vendor-total-thumb">
+                        <!--<a href="category?slug=wedding-organisers&id=3"><img src="images/main-category/Wedding-Organisers.jpg" class="img-responsive" alt="Wedding Organisers"></a>-->
+                        <a href="category/wedding-organisers"><img src="images/main-category/Wedding-Organisers.jpg" class="img-responsive" alt="Wedding Organisers"></a>
+                            <!--<a href="category/wedding-organisers"><img src="images/main-category/Wedding-Organisers.jpg" class="img-responsive" alt="Wedding Organisers"></a>-->
+                        </div>
+                        <div class="well-box vendor-total-info">
+                            <h2 class="vendor-total-title"><a href="category/wedding-organisers" class="title">Wedding Organisers</a></h2>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="vendor-total-list mb30">
+                        <div class="vendor-total-thumb">
+                        <!--<a href="category?slug=wedding-attire&id=4"><img src="images/main-category/Wedding-Attire.jpg" class="img-responsive" alt="Wedding Attire"></a>-->
+                        <a href="category/wedding-attire"><img src="images/main-category/Wedding-Attire.jpg" class="img-responsive" alt="Wedding Attire"></a>
+                            <!--<a href="category/wedding-attire"><img src="images/main-category/Wedding-Attire.jpg" class="img-responsive" alt="Wedding Attire"></a>-->
+                        </div>
+                        <div class="well-box vendor-total-info">
+                            <h2 class="vendor-total-title"><a href="category/wedding-attire" class="title">Wedding Attire</a></h2>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="vendor-total-list mb30">
+                        <div class="vendor-total-thumb">
+                        <!--<a href="category?slug=wedding-day-beauty&id=5"><img src="images/main-category/Wedding-Day-Beauty.jpg" class="img-responsive" alt="Wedding Day Beauty"></a>-->
+                        <a href="category/wedding-day-beauty"><img src="images/main-category/Wedding-Day-Beauty.jpg" class="img-responsive" alt="Wedding Day Beauty"></a>
+                            <!--<a href="category/wedding-day-beauty"><img src="images/main-category/Wedding-Day-Beauty.jpg" class="img-responsive" alt="Wedding Day Beauty"></a>-->
+                        </div>
+                        <div class="well-box vendor-total-info">
+                            <h2 class="vendor-total-title"><a href="category/wedding-day-beauty" class="title">Wedding Day Beauty</a></h2>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="vendor-total-list mb30">
+                        <div class="vendor-total-thumb">
+                        <!--<a href="category?slug=jewellery&id=6"><img src="images/main-category/Wedding-Jewellery.jpg" class="img-responsive" alt="Jewellery"></a>-->
+                        <a href="category/jewellery"><img src="images/main-category/Wedding-Jewellery.jpg" class="img-responsive" alt="Jewellery"></a>
+                            <!--<a href="category/jewellery"><img src="images/main-category/Wedding-Jewellery.jpg" class="img-responsive" alt="Jewellery"></a>-->
+                        </div>
+                        <div class="well-box vendor-total-info">
+                            <h2 class="vendor-total-title"><a href="category/jewellery" class="title">Jewellery</a></h2>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="vendor-total-list mb30">
+                        <div class="vendor-total-thumb">
+                        <!--<a href="category?slug=photography-and-videography&id=7"><img src="images/main-category/Wedding-Photo-&-Videography.jpg" class="img-responsive" alt="Photography & Videography"></a>-->
+                        <a href="category/photography-and-videography"><img src="images/main-category/Wedding-Photo-&-Videography.jpg" class="img-responsive" alt="Photography & Videography"></a>
+                            <!--<a href="category/photography-and-videography"><img src="images/main-category/Wedding-Photo-&-Videography.jpg" class="img-responsive" alt="Photography & Videography"></a>-->
+                        </div>
+                        <div class="well-box vendor-total-info">
+                            <h2 class="vendor-total-title"><a href="category/photography-and-videography" class="title">Photography & Videography</a></h2>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="vendor-total-list mb30">
+                        <div class="vendor-total-thumb">
+                        <!--<a href="category?slug=foods&id=8"><img src="images/main-category/Wedding-Foods.jpg" class="img-responsive" alt="Foods"></a>-->
+                        <a href="category/foods"><img src="images/main-category/Wedding-Foods.jpg" class="img-responsive" alt="Foods"></a>
+                            <!--<a href="category/foods"><img src="images/main-category/Wedding-Foods.jpg" class="img-responsive" alt="Foods"></a>-->
+                        </div>
+                        <div class="well-box vendor-total-info">
+                            <h2 class="vendor-total-title"><a href="category/foods" class="title">Foods</a></h2>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="vendor-total-list mb30">
+                        <div class="vendor-total-thumb">
+                        <!--<a href="category?slug=wedding-entertainment&id=9"><img src="images/main-category/Wedding-Entertainment.jpg" class="img-responsive" alt="Wedding Entertainment"></a>-->
+                        <a href="category/wedding-entertainment"><img src="images/main-category/Wedding-Entertainment.jpg" class="img-responsive" alt="Wedding Entertainment"></a>
+                            <!--<a href="category/wedding-entertainment"><img src="images/main-category/Wedding-Entertainment.jpg" class="img-responsive" alt="Wedding Entertainment"></a>-->
+                        </div>
+                        <div class="well-box vendor-total-info">
+                            <h2 class="vendor-total-title"><a href="category/wedding-entertainment" class="title">Wedding Entertainment</a></h2>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="vendor-total-list mb30">
+                        <div class="vendor-total-thumb">
+                        <!--<a href="category?slug=cakes-and-chocolate&id=10"><img src="images/main-category/Cakes-&-Chocolate.jpg" class="img-responsive" alt="Cakes & Chocolate"></a>-->
+                        <a href="category/cakes-and-chocolate"><img src="images/main-category/Cakes-&-Chocolate.jpg" class="img-responsive" alt="Cakes & Chocolate"></a>
+                            <!--<a href="category/cakes-and-chocolate"><img src="images/main-category/Cakes-&-Chocolate.jpg" class="img-responsive" alt="Cakes & Chocolate"></a>-->
+                        </div>
+                        <div class="well-box vendor-total-info">
+                            <h2 class="vendor-total-title"><a href="category/cakes-and-chocolate" class="title">Cakes & Chocolate</a></h2>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="vendor-total-list mb30">
+                        <div class="vendor-total-thumb">
+                        <!--<a href="category?slug=wedding-stationery&id=11"><img src="images/main-category/Wedding-Stationery.jpg" class="img-responsive" alt="Wedding Stationery"></a>-->
+                        <a href="category/wedding-stationery"><img src="images/main-category/Wedding-Stationery.jpg" class="img-responsive" alt="Wedding Stationery"></a>
+                            <!--<a href="category/wedding-stationery"><img src="images/main-category/Wedding-Stationery.jpg" class="img-responsive" alt="Wedding Stationery"></a>-->
+                        </div>
+                        <div class="well-box vendor-total-info">
+                            <h2 class="vendor-total-title"><a href="category/wedding-stationery" class="title">Wedding Stationery</a></h2>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="vendor-total-list mb30">
+                        <div class="vendor-total-thumb">
+                        <!--<a href="category?slug=wedding-venues&id=12"><img src="images/main-category/Wedding-Venues.jpg" class="img-responsive" alt="Wedding Venues"></a>-->
+                        <a href="category/wedding-venues"><img src="images/main-category/Wedding-Venues.jpg" class="img-responsive" alt="Wedding Venues"></a>
+                            <!--<a href="category/wedding-venues"><img src="images/main-category/Wedding-Venues.jpg" class="img-responsive" alt="Wedding Venues"></a>-->
+                        </div>
+                        <div class="well-box vendor-total-info">
+                            <h2 class="vendor-total-title"><a href="category/wedding-venues" class="title">Wedding Venues</a></h2>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="vendor-total-list mb30">
+                        <div class="vendor-total-thumb">
+                        <!--<a href="category?slug=travel-and-transport&id=13"><img src="images/main-category/Wedding-Transport.jpg" class="img-responsive" alt="Travel and Transport"></a>-->
+                        <a href="category/travel-and-transport"><img src="images/main-category/Wedding-Transport.jpg" class="img-responsive" alt="Travel and Transport"></a>
+                            <!--<a href="category/travel-and-transport"><img src="images/main-category/Wedding-Transport.jpg" class="img-responsive" alt="Travel and Transport"></a>-->
+                        </div>
+                        <div class="well-box vendor-total-info">
+                            <h2 class="vendor-total-title"><a href="category/travel-and-transport" class="title">Travel and Transport</a></h2>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="vendor-total-list mb30">
+                        <div class="vendor-total-thumb">
+                        <!--<a href="category?slug=wedding-registar&id=14"><img src="images/main-category/Wedding-Registar.jpg" class="img-responsive" alt="Wedding Registar"></a>-->
+                        <a href="category/wedding-registar"><img src="images/main-category/Wedding-Registar.jpg" class="img-responsive" alt="Wedding Registar"></a>
+                            <!--<a href="category/wedding-registar"><img src="images/main-category/Wedding-Registar.jpg" class="img-responsive" alt="Wedding Registar"></a>-->
+                        </div>
+                        <div class="well-box vendor-total-info">
+                            <h2 class="vendor-total-title"><a href="category/wedding-registar" class="title">Wedding Registar</a></h2>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="vendor-total-list mb30">
+                        <div class="vendor-total-thumb">
+                        <!--<a href="category?slug=marque-and-furniture&id=15"><img src="images/main-category/Marque-and-Furniture.jpg" class="img-responsive" alt="Marque and Furniture"></a>-->
+                        <a href="category/marque-and-furniture"><img src="images/main-category/Marque-and-Furniture.jpg" class="img-responsive" alt="Marque and Furniture"></a>
+                            <!--<a href="category/marque-and-furniture"><img src="images/main-category/Marque-and-Furniture.jpg" class="img-responsive" alt="Marque and Furniture"></a>-->
+                        </div>
+                        <div class="well-box vendor-total-info">
+                            <h2 class="vendor-total-title"><a href="category/marque-and-furniture" class="title">Marque and Furniture</a></h2>
+                        </div>
+                    </div>
+                </div>
+                     <div class="col-md-3">
+                    <div class="vendor-total-list mb30">
+                        <div class="vendor-total-thumb">
+                        <!--<a href="category?slug=others&id=16"><img src="images/main-category/Other.jpg" class="img-responsive" alt="Others"></a>-->
+                        <a href="category/others"><img src="images/main-category/Other.jpg" class="img-responsive" alt="Others"></a>
+                            <!--<a href="category/others"><img src="images/main-category/Other.jpg" class="img-responsive" alt="Others"></a>-->
+                        </div>
+                        <div class="well-box vendor-total-info">
+                            <h2 class="vendor-total-title"><a href="category/others" class="title">Others</a></h2>
+                        </div>
+                    </div>
+                </div>
+     
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="section-space80 featured-wed-vendor">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title mb60 text-center">
+                            <h1>Featured Wedding Vendors</h1>
+                            <!--   <p>Many desktop publishing packages and web page editors now use orem psum as their default model text.</p> -->
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="row">
+                             
+                        <div class="col-md-4">
+                            <div class="vendor-box">
+                                <div class="vendor-image">
+                                    <a href="https://www.rajajewellers.com/" target="_blank"><img src="images/featured/Raja.jpg" alt="Raja Jewellers" class="img-responsive"></a>
+                                    <div class="rated-label"></div>
+                                </div>
+                                <div class="vendor-detail">
+                                    <div class="caption hm-bn-adj">
+                                        <h2><a href="https://www.rajajewellers.com/" class="title" target="_blank"> Raja Jewellers</a></h2>
+                                        <div class="line"></div>
+                                        <p class="location"><strong><i class="fa fa-map-marker"></i> Raja Building, 173, Galle Road, Colombo 4</strong></p>
+                                        <p class="location"><strong><i class="fa fa-phone"></i> +94 (011) 2583223 / +94 (011) 595655</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="vendor-box">
+                                <div class="vendor-image">
+                                    <a href="http://www.hotelroyalgrandparadise.com/" target="_blank"><img src="images/featured/hotelroyalgrandparadise.jpg" alt="Hotel Royal Grand Paradise" class="img-responsive"></a>
+                                    <div class="rated-label"></div>
+                                </div>
+                                <div class="vendor-detail">
+                                    <div class="caption hm-bn-adj">
+                                        <h2><a href="http://www.hotelroyalgrandparadise.com/" class="title" target="_blank"> Hotel Royal Grand Paradise</a></h2>
+                                        <div class="line"></div>
+                                        <p class="location"><strong><i class="fa fa-map-marker"></i> No:276/A, Galedanda Rd, Gonawala, Kelaniya</strong></p>
+                                        <p class="location"><strong><i class="fa fa-phone"></i> +94 777 584 741 / +94 772 207 071</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="vendor-box">
+                                <div class="vendor-image">
+                                    <a href="https://weddingsrilanka.lk/page-contact.php?page-id=STUDIO3000DF" target="_blank"><img src="images/featured/Studio3000.jpg" alt="Studio 3000DF" class="img-responsive"></a>
+                                    <div class="rated-label"></div>
+                                </div>
+                                <div class="vendor-detail">
+                                    <div class="caption hm-bn-adj">
+                                        <h2><a href="http://djash.lk/" class="title" target="_blank"> Studio 3000DF</a></h2>
+                                        <div class="line"></div>
+                                        <p class="location"><strong><i class="fa fa-map-marker"></i> 40 Galle Rd, Colombo 10280</strong></p>
+                                        <p class="location"><strong><i class="fa fa-phone"></i> +94 (071) 822 3000 / +94 (071) 400 3000</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="vendor-box">
+                                <div class="vendor-image">
+                                    <a href="http://www.wanamal.lk/" target="_blank"><img src="images/featured/Wanamal.jpg" alt="Shades Of Wanamal" class="img-responsive"></a>
+                                    <div class="rated-label"></div>
+                                </div>
+                                <div class="vendor-detail">
+                                    <div class="caption hm-bn-adj">
+                                        <h2><a href="" class="title" target="_blank"> Shades Of Wanamal</a></h2>
+                                        <div class="line"></div>
+                                        <p class="location"><strong><i class="fa fa-map-marker"></i> NO 07, 6th Ln, Colombo 03</strong></p>
+                                        <p class="location"><strong><i class="fa fa-phone"></i> +94 (011) 4 344 557</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="vendor-box">
+                                <div class="vendor-image">
+                                    <a href="https://www.facebook.com/dineshseya/" target="_blank"><img src="images/featured/DineshSeya.jpg" alt="Dinesh Seya" class="img-responsive"></a>
+                                    <div class="rated-label"></div>
+                                </div>
+                                <div class="vendor-detail">
+                                    <div class="caption hm-bn-adj">
+                                        <h2><a href="http://www.kandyanbridaljewellery.lk/" class="title" target="_blank"> Dinesh Seya</a></h2>
+                                        <div class="line"></div>
+                                        <p class="location"><strong><i class="fa fa-map-marker"></i> No 27 Freedom Park, Minuwangoda, Sri Lanka</strong></p>
+                                        <p class="location"><strong><i class="fa fa-phone"></i> +94 (077) 781 0180</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="vendor-box">
+                                <div class="vendor-image">
+                                    <a href="https://www.imtiazdesigners.lk/web/public/" target="_blank"><img src="images/featured/Imtiaz.jpg" alt="Imtiaz Designers" class="img-responsive"></a>
+                                    <div class="rated-label"></div>
+                                </div>
+                                <div class="vendor-detail">
+                                    <div class="caption hm-bn-adj">
+                                        <h2><a href="" class="title" target="_blank"> Imtiaz Designers</a></h2>
+                                        <div class="line"></div>
+                                        <p class="location"><strong><i class="fa fa-map-marker"></i> 38, S. De. S Jayasinghe Road, Kalubowila-Dehiwala, Sri Lanka</strong></p>
+                                        <p class="location"><strong><i class="fa fa-phone"></i> +94 (071) 111 8888</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="vendor-box">
+                                <div class="vendor-image">
+                                    <a href="https://ceylonpages.lk/" target="_blank"><img src="images/featured/Lakdam.jpg" alt="Imtiaz Asian Designers" class="img-responsive"></a>
+                                    <div class="rated-label"></div>
+                                </div>
+                                <div class="vendor-detail">
+                                    <div class="caption hm-bn-adj">
+                                        <h2><a href="http://www.weddingdirectory.lk/listing/Imtiaz-Asian-Designers" class="title" target="_blank"> Studio Lakdam (Pvt) Ltd.</a></h2>
+                                        <div class="line"></div>
+                                        <p class="location"><strong><i class="fa fa-map-marker"></i> No 38, Side S Jayasinghe Mawatha, Kalubowila, Dehiwala</strong></p>
+                                        <p class="location"><strong><i class="fa fa-phone"></i> +94 (011) 313 7844</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="vendor-box">
+                                <div class="vendor-image">
+                                    <a href="https://lassana.com/" target="_blank"><img src="images/featured/LassanaFlora.jpg" alt="Studio Lakdam" class="img-responsive"></a>
+                                    <div class="rated-label"></div>
+                                </div>
+                                <div class="vendor-detail">
+                                    <div class="caption hm-bn-adj">
+                                        <h2><a href="http://www.swissresidence.lk" class="title" target="_blank"> Lassana.com (Pvt) Ltd.</a></h2>
+                                        <div class="line"></div>
+                                        <p class="location"><strong><i class="fa fa-map-marker"></i> 236 A2, Dehiwala-Mount Lavinia 10350</strong></p>
+                                        <p class="location"><strong><i class="fa fa-phone"></i> +94 (011) 272 3116 / +94 (077) 774 3680</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-4">
+                            <div class="vendor-box">
+                                <div class="vendor-image">
+                                    <a href="http://www.hotelroyalgrandparadise.com/" target="_blank"><img src="images/featured/Vouge.jpg" alt="Hotel Royal Grand Paradise" class="img-responsive"></a>
+                                    <div class="rated-label"></div>
+                                </div>
+                                <div class="vendor-detail">
+                                    <div class="caption hm-bn-adj">
+                                        <h2><a href="http://www.hotelroyalgrandparadise.com/" class="title" target="_blank"> Hotel Royal Grand Paradise</a></h2>
+                                        <div class="line"></div>
+                                        <p class="location"><strong><i class="fa fa-map-marker"></i> 276/A, Galedanda Road, Gonawala, Kelaniya</strong></p>
+                                        <p class="location"><strong><i class="fa fa-phone"></i> +94 (077) 7 584 741 / +94 (077) 2 207 071</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="col-md-4">
+                            <div class="vendor-box">
+                                <div class="vendor-image">
+                                    <a href="http://sltds.lk/" target="_blank"><img src="images/featured/Adspace.jpg" alt="SLT Digital Services (Pvt) Ltd" class="img-responsive"></a>
+                                    <div class="rated-label"></div>
+                                </div>
+                                <div class="vendor-detail">
+                                    <div class="caption hm-bn-adj">
+                                        <h2><a href="http://sltds.lk/" class="title" target="_blank"> SLT Digital Services (Pvt) Ltd</a></h2>
+                                        <div class="line"></div>
+                                        <p class="location"><strong><i class="fa fa-map-marker"></i>No 17, HK Dharmadasa Mawatha, Colombo 02</strong></p>
+                                        <p class="location"><strong><i class="fa fa-phone"></i>+94 (011) 2 399 399</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+                <!-- New Home Page Bottom Banner Starts 25th Sep 2019 -->
+                <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 hm-btmslider-wrapper">
+                        <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner"> 
+                                    
+                               <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+                                  <span class="glyphicon glyphicon-chevron-left"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+                                  <span class="glyphicon glyphicon-chevron-right"></span>
+                                  <span class="sr-only">Next</span>
+                                </a> 
+
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <!-- New Home Page Bottom Banner Ends 25th Sep 2019 -->
+            </div>
+            <!-- <div class="section-space80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title mb60 text-center">
+                                <h1>Featured Wedding Vendors</h1>
+                                <p>Many desktop publishing packages and web page editors now use orem psum as their default model text.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-4">
+                            <div class="vendor-box">
+                                <div class="vendor-image">
+                                    <a href="#"><img src="images/vendor-1.jpg" alt="wedding vendor" class="img-responsive"></a>
+                                    <div class="feature-label"></div>
+                                    <div class="favourite-bg"><a href="#" class=""><i class="fa fa-heart"></i></a></div>
+                                </div>
+                                <div class="vendor-detail">
+                                    <div class="caption">
+                                        <h2><a href="#" class="title">Venue Vendor Title</a></h2>
+                                        <p class="location"><i class="fa fa-map-marker"></i> Street Address, Name of Town, 12345, Country.</p>
+                                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(2)</span> </div>
+                                    </div>
+                                    <div class="vendor-price">
+                                        <div class="price">$190 - $600</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="vendor-box">
+                                <div class="vendor-image">
+                                    <a href="#"><img src="images/vendor-4.jpg" alt="wedding vendor" class="img-responsive"></a>
+                                    <div class="rated-label"></div>
+                                    <div class="favourite-bg"><a href="#" class=""><i class="fa fa-heart"></i></a></div>
+                                </div>
+                                <div class="vendor-detail">
+                                    <div class="caption">
+                                        <h2><a href="#" class="title"> Wedding Dress Vendor Title</a></h2>
+                                        <p class="location"><i class="fa fa-map-marker"></i> Street Address, Name of Town, 12345, Country.</p>
+                                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(3)</span> </div>
+                                    </div>
+                                    <div class="vendor-price">
+                                        <div class="price">$290 - $600</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 vendor-box">
+                            <div class="vendor-image">
+                                <a href="#"><img src="images/vendor-3.jpg" alt="wedding vendor" class="img-responsive"></a>
+                                <div class="popular-label"></div>
+                                <div class="favourite-bg"><a href="#" class=""><i class="fa fa-heart"></i></a></div>
+                            </div>
+                            <div class="vendor-detail">
+                                <div class="caption">
+                                    <h2><a href="#" class="title">Vendor Photographer Title</a></h2>
+                                    <p class="location"><i class="fa fa-map-marker"></i> Street Address, Name of Town, 12345, Country.</p>
+                                    <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <span class="rating-count">(5)</span> </div>
+                                </div>
+                                <div class="vendor-price">
+                                    <div class="price">$390 - $600</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+    <!-- <div class="section-space80">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title mb60 text-center">
+                        <h1>Top Wedding Locations</h1>
+                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 location-block">
+                    <div class="vendor-image">
+                        <a href="#"><img src="images/location-pic.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">New York City</span></a>
+                        </div>
+                </div>
+                <div class="col-md-4 location-block">
+                    <div class="vendor-image">
+                        <a href="#"><img src="images/location-pic-2.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Sydney</span></a>
+                        </div>
+                </div>
+                <div class="col-md-4 location-block">
+                    <div class="vendor-image">
+                        <a href="#"><img src="images/location-pic-3.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Russia</span></a>
+                        </div>
+                </div>
+                <div class="col-md-8 location-block">
+                    <div class="vendor-image">
+                        <a href="#"><img src="images/location-pic-4.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Germany</span></a>
+                        </div>
+                </div>
+                <div class="col-md-4 location-block">
+                    <div class="vendor-image">
+                        <a href="#"><img src="images/location-pic-5.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Paris</span></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- <div class="section-space80 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title mb60 text-center">
+                        <h1>Just Get Married Happy Couple</h1>
+                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 tp-testimonial">
+                    <div id="testimonial" class="owl-carousel owl-theme">
+                        <div class="item testimonial-block">
+                            <div class="couple-pic"><img src="images/couple.jpg" alt="" class="img-circle"></div>
+                            <div class="feedback-caption">
+                                <p>"Had our wedding on 15th may 2015 and have to say Jenny and the team made it a wonderful and enjoyable day were Notting was a problem from the build up to the day."</p>
+                            </div>
+                            <div class="couple-info">
+                                <div class="name">Dave Macwan</div>
+                                <div class="date">Thu, 21st June, 2015</div>
+                            </div>
+                        </div>
+                        <div class="item testimonial-block">
+                            <div class="couple-pic"><img src="images/couple-2.jpg" alt="" class="img-circle"></div>
+                            <div class="feedback-caption">
+                                <p>"Vestibulum vitae neque urna. Duis ut mauris mi. Sed vehicula vestibulum finias their default model text and a search for lorem ipsum will uncover manym elit posuerenia eget sem."</p>
+                            </div>
+                            <div class="couple-info">
+                                <div class="name">Marry & Leary</div>
+                                <div class="date">Thu, 13th July, 2015</div>
+                            </div>
+                        </div>
+                        <div class="item testimonial-block">
+                            <div class="couple-pic"><img src="images/couple-3.jpg" alt="" class="img-circle"></div>
+                            <div class="feedback-caption">
+                                <p>"Had our wedding on 15th Oct 2015 and have to say Jenny and the team made it a wonderful and enjoyable day were Notting was a problem from the build up to the day."</p>
+                            </div>
+                            <div class="couple-info">
+                                <div class="name">Jhon Doe & Doe Jassica</div>
+                                <div class="date">Thu, 21st Aug, 2015</div>
+                            </div>
+                        </div>
+                        <div class="item testimonial-block">
+                            <div class="couple-pic"><img src="images/couple-4.jpg" alt="" class="img-circle"></div>
+                            <div class="feedback-caption">
+                                <p>"Etiam ut metus nisi. Sed non laoreet nisi tinciin interdum risus felis enjoyable day were Notting was a problem from the build up to the dayvel eleifend milaoreet consectetur."</p>
+                            </div>
+                            <div class="couple-info">
+                                <div class="name">Dave Macwan</div>
+                                <div class="date">Thu, 12th Sept, 2015</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="section-space80 pt-0">
+        <!-- Call to action -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 couple-block">
+                    <div class="couple-icon"><img src="images/couple.svg" alt=""></div>
+                        <h2>Are you a wedding vendor?</h2>
+                        <p>Get maximum exposure for your business with Sri Lanka’s No. 1 Wedding Website to grow bigger. We have revamped our website on a par with international wedding websites in order to best cater to the evolving needs of people and the advertising community. It features a range of advertising opportunities such as web banners, detail pages, listings, etc., that you can make use of, to reach a large audience.</p>
+                        <a href="#" class="btn btn-primary">Find Venders</a>
+                    </div>
+                <div class="col-md-6 vendor-block">
+                    <div class="vendor-icon"><img src="images/vendor.svg" alt=""></div>
+                        <h2>Are you a couple looking for wedding vendors?</h2>
+                        <p>If yes, here’s the solution. WeddingDirectory.lk offers you hundreds of wedding vendors of all categories enabling you to conveniently find the perfect match that will make your dream wedding a reality. We have revamped our website on a par with international wedding websites in order to best cater to your evolving needs. You can view vendors’ contact details, photo galleries, location maps and send inquiries directly to the vendor.</p>
+                        <a href="contact-us" class="btn btn-primary">Add Your Listing</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Area Start -->
+    <div class="footer">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-3 ft-link">
+            <h2>Quick <span class="welcome"> Links </span></h2>
+            <ul>
+
+               <li><a href="https://weddingdirectory.lk/sub-category/ashtaka-and-jayamangala-gatha/p">Ashtaka & Jayamangala Gatha</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/astrologers/p">Astrologers</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/counselors/p">Counselors</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/marriage-brokers/p">Marriage Brokers</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/balloon-suppliers/p">Balloon Suppliers</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/ballon-decorations/p">Ballon Decorations</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/dry-ice/p">Dry Ice</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/florists/p">Florists</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/settee-back-and-oil-lamp/p">Settee back & Oil Lamp</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/lighting/p">Lighting</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/champagne-fountains/p">Champagne Fountains</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/poruwa-suppliers/p">Poruwa Suppliers</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/event-management/p">Event Management</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/wedding-planners/p">Wedding Planners</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/bridal-wear/p">Bridal Wear</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/wedding-frock/p">Wedding Frock</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/groom-s-wear-and-tailors/p">Groom s Wear and Tailors</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/groom-s-wear-renting/p">Groom s Wear Renting</a></li>
+
+            </ul>
+            </div>
+            <div class="col-md-3 ft-link">
+            <br>
+            <ul>
+
+               <li><a href="https://weddingdirectory.lk/sub-category/nilame-dress/p">Nilame Dress</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/wedding-sarees/p">Wedding Sarees</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/wedding-accessories-and-fancy-items/p">Wedding Accessories & Fancy Items</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/designing-and-sewing/p">Designing & Sewing</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/fabrics-and-silks/p">Fabrics & Silks</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/lingerie/p">Lingerie</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/shoes/p">Shoes</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/beauticians-and-hair-dressers/p">Beauticians & Hair dressers</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/bridal-mehendi/p">Bridal Mehendi</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/cosmetic-products/p">Cosmetic Products</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/manicure-and-pedicure/p">Manicure & Pedicure</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/salons/p">Salons</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/gold-bridal-jewellery/p">Gold Bridal Jewellery</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/kandian-jewellery/p">Kandian Jewellery</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/bridal-jewellery--other/p">Bridal Jewellery - Other</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/diamonds/p">Diamonds</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/photographers/p">Photographers</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/story-books/p">Story Books</a></li>
+
+            </ul>
+            </div>
+            <div class="col-md-3 ft-link">
+            <br>
+            <ul>
+
+               <li><a href="https://weddingdirectory.lk/sub-category/videographers/p">Videographers</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/photo-location/p">Photo Location</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/photographic-colour-prints/p">Photographic Colour Prints</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/picture-frames--dealers/p">Picture Frames - Dealers</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/caterers/p">Caterers</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/bands/p">Bands</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/classical-musicians/p">Classical Musicians</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/wedding-dancing-groups/p">Wedding Dancing Groups</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/dj-s/p">DJ s</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/first-dance-training/p">First Dance Training</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/fireworks/p">Fireworks</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/wedding-dancers/p">Wedding Dancers</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/comperes/p">Comperes</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/wedding-cakes/p">Wedding Cakes</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/wedding-cake-structures/p">Wedding Cake Structures</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/chocolate/p">Chocolate</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/chocolate-fountains/p">Chocolate Fountains</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/cake-making-Ingrdients/p">Cake Making Ingrdients</a></li>
+
+            </ul>
+            </div>
+            <div class="col-md-3 ft-link">
+            <br>
+            <ul>
+
+               <li><a href="https://weddingdirectory.lk/sub-category/wedding-cake-boxes/p">Wedding Cake Boxes</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/wedding-invitations/p">Wedding Invitations</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/wedding-souvenirs/p">Wedding Souvenirs</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/hotels/p">Hotels</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/honeymoon-and-tours-packages/p">Honeymoon & Tours Packages</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/reception-halls/p">Reception Halls</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/romantic-destinations/p">Romantic Destinations</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/wedding-car-hire-and-limousines/p">Wedding Car Hire & Limousines</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/helicopter-and-airlines/p">Helicopter & Airlines</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/vehicle-hire/p">Vehicle Hire</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/travel-agents/p">Travel Agents</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/marriage-registrars/p">Marriage Registrars</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/hiring-tents-and-chairs-hiring-marque-tents-and-chairs/p">Hiring Tents & Chairs (Hiring Marque Tents & Chairs)</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/wedding-furniture/p">Wedding Furniture</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/gifts/p">Gifts</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/home-appliances/p">Home Appliances</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/wedding-loans/p">Wedding Loans</a></li>
+               <li><a href="https://weddingdirectory.lk/sub-category/wedding-security/p">Wedding Security</a></li>
+
+            </ul>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="tiny-footer">
+  <div class="container">
+    <div class="row">
+      <div class="social-icon">
+          <ul>
+            <li><a href="https://www.facebook.com/weddingdirectory.lk/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://weddingdirectorylk.blogspot.com/" target="_blank"><i class="fab fa-blogger"></i></a></li>
+            <li><a href="https://www.youtube.com/watch?v=iI038xuMQzc" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
+            <li><a href="https://plus.google.com/u/0/107509604354248092390" target="_blank"><i class="fab fa-google-plus-square"></i></a></li>
+            <li><a href="https://twitter.com/weddingdirectry" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.instagram.com/weddingdirectory.lk/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.pinterest.com/weddingdirectory_SriLanka/"><i class="fab fa-pinterest-square"></i></a></li>
+          </ul>
+        </div>
+      <div class="col-md-12 welcome">Copyright © 2024. www.weddingdirectory.lk ( All Rights Reserved )</div>
+    </div>
+  </div>
+</div>    <!-- Area End -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Flex Nav Script -->
+    <script src="js/jquery.flexnav.js" type="text/javascript"></script>
+    <script src="js/navigation.js"></script>
+    <!-- slider -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <!-- testimonial -->
+    <script type="text/javascript" src="js/testimonial.js"></script>
+    <!-- sticky header -->
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/header-sticky.js"></script>
+
+    <script>
+    </script>
+
+    <script type="text/javascript">
+
+        function autocomplete(inp, arr) {
+          function closeAllLists(elmnt) {
+            /*close all autocomplete lists in the document,
+            except the one passed as an argument:*/
+            var x = document.getElementsByClassName("autocomplete-items");
+            for (var i = 0; i < x.length; i++) {
+              if (elmnt != x[i] && elmnt != inp) {
+                x[i].parentNode.removeChild(x[i]);
+              }
+            }
+          }
+          /* //execute a function when someone clicks in the document:*/
+          document.addEventListener("click", function (e) {
+              // closeAllLists(e.target);
+              $("#search_results").html('');
+          });
+        }
+
+        
+        // autocomplete on keyup when type keyword 
+        //initiate the autocomplete function on the "keywordinput" element, and pass along the countries array as possible autocomplete values:
+        autocomplete(document.getElementById("keywordinput"), []);
+        
+        $('input[name=keyword]').on('keyup', function(){
+
+            var type_value = this.value;
+            var value_length = type_value.length;
+            // console.log(type_value);
+
+            if (value_length >= 3) {
+                $.ajax({
+
+                    url : 'assets/classes/Search',
+                    method : 'POST',
+                    data : {SEARCH: 1, VALUE:type_value},
+                    success : function(response){
+                        var resp = $.parseJSON(response);
+                        // console.log(resp);
+                        if (resp.status == 202) {
+
+                            var HTML = '';
+
+                            if (resp.message.category) {
+
+                                HTML += '<div style="background-color: #00aeaf;color: white;">Categories</div>';
+
+                                $.each(resp.message.category, function(index, value){
+                                    //HTML += '<div class="category_search" data-slug="'+ value.slug +'" data-name="'+ value.category_name +'">'+ value.category_name +'</div>';
+                                    HTML += '<div class="category_search" data-slug="'+ value.sub_cat_slug +'" data-name="'+ value.sub_cat_name +'">'+ value.sub_cat_name +'</div>';
+                                });
+                            }
+
+                            if (resp.message.listing) {
+
+                                HTML += '<div style="background-color: #00aeaf;color: white;">Listings</div>';
+                                // sub_cat_slug
+                                $.each(resp.message.listing, function(index, value){
+                                    HTML += '<div class="listing_search" data-slug="'+ value.slug +'" data-name="'+ value.name +'" data-subcatslug="'+value.sub_cat_slug+'">'+ value.name +' ('+ value.sub_cat_name +')</div>';
+                                });
+                            }
+
+                            $("#search_results").html('');
+                            $("#search_results").html(HTML);
+
+                        }else if (resp.status == 303) {
+                            $("#search_results").html('');
+                        }
+                    }
+
+                });
+            }
+
+        });
+
+        $(document.body).on('click', '.category_search', function(){
+            var name = $(this).data('name');
+            var slug = $(this).data('slug');
+            // $('#keywordinput').val(name);
+            // window.location.replace("category?id="+slug);
+            window.location.replace('sub-category/'+slug+'/p');
+        });
+        $(document.body).on('click', '.listing_search', function(){
+            var name = $(this).data('name');
+            var slug = $(this).data('slug');
+            var subCatSlug = $(this).data('subcatslug');
+            // console.log(slug);
+            // $('#keywordinput').val(name);
+            window.location.replace('listings-search/'+slug+'/'+subCatSlug);
+        });
+    </script>
+
+    <script>
+        $('#btnSearch').click(function(e){
+            e.preventDefault();
+            var findKeyword = $('.find-keyword').val();
+            var findLocation = $('.find-location').val();
+            var tFindKeyword = findKeyword.trim();
+            var tFindLocation = findLocation.trim();
+           
+            // console.log(tFindKeyword);
+            // console.log(tFindLocation);
+
+
+            if(tFindKeyword == ""){
+                console.log('keyword empty');
+            }else{
+                
+                if(tFindLocation !=""){
+                    // console.log('location have');
+                    
+                    //add hyphen between to spaces
+                    var rKeyword = tFindKeyword.replace(/\s/g, '-');
+                    var rLocation = tFindLocation.replace(/\s/g, '-');
+                    window.location.replace('listings/'+rKeyword+'/'+rLocation+'/p');
+
+                }else{
+                    // console.log('location empty');
+
+                    //add hyphen between to spaces
+                    var rKeyword = tFindKeyword.replace(/\s/g, '-');
+                    var rLocation = 'n';
+                    window.location.replace('listings/'+rKeyword+'/'+rLocation+'/p');
+
+                }
+                
+
+            }
+            // console.log(findKeyword, findLocation);
+            
+        });
+    </script>    
+
+    </body>
+</html>
